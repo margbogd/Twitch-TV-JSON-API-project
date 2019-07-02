@@ -3,8 +3,8 @@ $(document).ready(function() {
   ////////////////////////////////////
   ////URLs and ARRAY FOR STREAMERs////
   ////////////////////////////////////
-  var sUrl = "https://wind-bow.glitch.me/twitch-api/streams/";
-  var cUrl = "https://wind-bow.glitch.me/twitch-api/channels/";
+  var sUrl = "your api goes here";
+  var cUrl = "your api goes here";
   var streamers = [
     "freecodecamp", //0
     "OgamingSC2", //1
