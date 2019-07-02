@@ -1,0 +1,227 @@
+body {
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(125deg, #975cd4, #975cd4, #cb51e1, #6c0ccf);
+  background-size: 800% 800%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  margin: 0px !important;
+}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#title {
+  font-family: "Audiowide", cursive;
+  font-size: 30px;
+}
+#menu {
+  margin-top: 40px;
+  width:100% ;
+  padding-bottom:4rem;
+}
+.options {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  background-color: #232127;
+  color: #a49fad;
+  border-radius: 8px;
+  width: 95px;
+  border-left: 6px solid white;
+  box-shadow: 5px 5px #232127;
+  font-family: "Righteous", cursive;
+  font-size: 15px;
+}
+.options:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.streamers-div {
+  width: 520px;
+  display: inline-block;
+  margin: 10px;
+  height: 130px;
+  text-align: left;
+/*   border:  #e5e3e8 2px solid; */
+/*   border-top-left-radius: 100px; */
+/*   border-bottom-left-radius: 100px; */
+/*   border-left: none; */
+/*   background-color: #e5e3e8; */
+  background: transparent;
+  color: #232127;
+}
+.logo {
+  height: 95px;
+  width: 95px;
+  border-radius: 95px;
+  position: relative;
+  left: 0.2px;
+  float: left;
+  border:#e5e3e82px solid;
+}
+.logo-div {
+  display: inline-block;
+  height: 94px;
+}
+.streamer-info-div {
+  position: relative;
+  display: inline-block;
+  bottom: 25px;
+  margin: 10px;
+  width: 390px;
+}
+h2 {
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h2:hover {
+  color: white;
+}
+.offline, .online {
+  letter-spacing: 3px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+  display:inline-block;
+  float: right;
+}
+.game {
+  margin-bottom: 4px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 29px;
+}
+h3 {
+  letter-spacing: 3px;
+  font-size: 16px;
+  margin-top: 15px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+/*MEDIA QUERIES*/
+@media only screen and (max-width:558px){
+  .streamers-div {
+    width: 380px;
+    display: inline-block;
+    margin: 10px;
+    height: 100px;
+    text-align: left;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-left: none;
+  }
+  .streamer-info-div {
+    position: relative;
+    display: inline-block;
+    bottom: 25px;
+    margin:10px;
+    width: 250px;
+  }
+}/*1st media query*/
+.footer {
+  background-color: #232127;
+  border-top: 2px solid #232127;
+  bottom: 0;
+  color: #a49fad;
+  font-size: 14px;
+  max-height: 15em;
+  padding-top: 1em;
+  position: fixed;
+  width: 100%;
+}
+.footer-text a {
+  display: inline-block;
+  color: #a49fad;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1em;
+  border-bottom-color: #6441a5;
+  line-height: 1em;
+}
+.footer a:hover {
+  color: #6441a5;
+}
+.footer-text {
+  margin-bottom: 0;
+}
+.footer-logos {
+  font-size: 16px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.footer-logos i:hover {
+  color: #a49fad;
+  background-color: #6441a5;
+}
+.footer-logos i {
+  border: 1px solid #433f4a;
+  border-radius: 25%;
+  color: #a49fad;
+  margin: 0 0.15em;
+  padding: 0.45em;
+}
+.footer .container {
+  max-width: 500px;
+  min-width: 220px;
+}
+@media only screen and (max-width:418px){
+   .streamers-div {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    height: 100px;
+    text-align: left;
+    border: white 2px solid;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-left: none;
+    background-color: rgb(44,38,64);
+  }
+  .streamer-info-div {
+    position: relative;
+    display: inline-block;
+    bottom: 25px;
+    margin:10px;
+    width: 180px;
+  } 
+  .game {
+    display: none;
+  }
+}/*2nd media query*/
+
+
+#filler {
+  height: 37em;
+  overflow: auto;
+}
